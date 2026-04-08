@@ -36,6 +36,7 @@ STOCK_POOL = [
 ]
 
 
+
 def get_stock_price(ticker_symbol):
     try:
         stock = yf.Ticker(ticker_symbol)
