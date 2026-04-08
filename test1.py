@@ -34,6 +34,7 @@ STOCK_POOL = [
     "0050.TW", # 元大台灣50
 ]
 
+
 def get_stock_price(ticker_symbol):
     try:
         stock = yf.Ticker(ticker_symbol)
